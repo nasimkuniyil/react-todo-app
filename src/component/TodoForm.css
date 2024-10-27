@@ -1,0 +1,43 @@
+#form-container{
+    animation: formAnim 0.8s ease-in-out;
+}
+
+#inputField{
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #333333; 
+    background-color: #ffffff; 
+    border: 1px solid #cccccc; 
+    padding: 10px; 
+    border-radius: 5px;
+    outline: none;
+}
+
+#inputField::placeholder{
+    opacity: 0.35;
+    font-size:14px;
+}
+
+#submitBtn{
+    width: 100%;
+    background-color: #4a90e2; 
+    color: #ffffff;
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#submitBtn:hover{
+    background-color: #3a7bd5;
+}
+
+@keyframes formAnim {
+    0%,50%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    
+}

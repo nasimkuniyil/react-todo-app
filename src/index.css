@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color: #333333;
+  background-color: #f5f5f5;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  animation: headingAnim .7s ease-in-out;
+}
+
+@keyframes headingAnim {
+
+  0%{
+    opacity: 0;
+    transform: translatey(-15px);
+  }
+
+  20%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+  
+}
